@@ -1,0 +1,109 @@
+.app-wrapper{
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+
+    grid-template-areas: 
+    'a d'
+    'o o'
+    'l l';
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.avatar{
+    grid-area: a;
+}
+.description{
+    grid-area: d;
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+    background: #fff9dc ;
+    border-radius: 3%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    padding: 10px 10px 10px 10px;
+}
+.other{
+    display: grid;
+    grid-area: o;
+    grid-template-areas: 
+    'h h h'
+    'i1 i2 i3';
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.links{
+    padding-top: 100px;
+    grid-area: l;
+    grid-template-areas: 'l1 l2 l3 l4 l5';
+    display: grid;
+    color: grey;
+    margin-bottom: 100px;
+}
+.help{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    grid-area: l1;
+    cursor: pointer;
+}
+.connect{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    grid-area: l2;
+    cursor: pointer;
+}
+.partners{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    grid-area: l3;
+    cursor: pointer;
+}
+.license{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    grid-area: l4;
+    cursor: pointer;
+}
+.faq{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    grid-area: l5;
+    cursor: pointer;
+}
+.myPhoto {
+    width: 400px;
+    height: 500px;
+    padding-left: 50px;
+}
+.header{
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    grid-area: h;
+    text-align: center;
+    padding-top: 100px;
+}
+.dImage1{
+    width: 350px;
+    height: 350px;
+    grid-area: i1;
+}
+.dImage2{
+    width: 350px;
+    height: 350px;
+    grid-area: i2;
+}
+.dImage3{
+    width: 350px;
+    height: 350px;
+    grid-area: i3;
+}
+.trump{
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+}
+.kirill{
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+}
+.deckboy{
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+}
